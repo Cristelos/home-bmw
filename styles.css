@@ -15,7 +15,7 @@ header {
 
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 ul.menu__lista {
@@ -44,8 +44,8 @@ div.iconos-cabecera > img:nth-child(3){
     margin-left: 9px;
 }
 
-.linea{
-    width: 71%;
+.linea-baja{
+    width: 64%;
     border-bottom: 1px solid #ffffff;
     display: block;
     position: relative;
@@ -53,20 +53,9 @@ div.iconos-cabecera > img:nth-child(3){
     margin: 0 auto;
 }
 
-/*.hero-image {
-    max-width: 2000px;
-    width: 100%;
-    margin: 0 auto;
-    height: 880px;
-    margin-left: 1px;
-
-    position: inherit;
-    margin-top: -88px;
-}*/
-
-/*.hero-image__texto {
+.hero-image__texto {
     position: relative;
-    top: 355px;
+    top: 266px;
     left: 25px;
     color: #ffffff;
 }
@@ -83,11 +72,11 @@ h2{
 .hero-image__buttom {
     background-color: #1c69d4;
     /* color: #fff; */
-  /*  max-width: 280px;
+    max-width: 280px;
     width: 100%;
     text-align: center;
     padding: 2px;
-}*/
+}
 
 .list-vehicule {
     width: 80%;
