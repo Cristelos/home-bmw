@@ -242,6 +242,11 @@ footer {
 
 ul.pie-pagina__lista {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
+    margin-top: 100px;
+} 
+
+.pie-pagina__lista li {
+    font-size: 12px;
 }
