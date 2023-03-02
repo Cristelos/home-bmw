@@ -7,10 +7,15 @@ body{
 }
 
 header {
+    background-image: url(./img/1366_2000.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav{
     display: flex;
     justify-content: space-between;
-    margin: 0 165px;
-    border-bottom: 1px solid #f2f2f2;
 }
 
 ul.menu__lista {
@@ -48,19 +53,18 @@ div.iconos-cabecera > img:nth-child(3){
     margin: 0 auto;
 }
 
-.hero-image {
+/*.hero-image {
     max-width: 2000px;
     width: 100%;
     margin: 0 auto;
     height: 880px;
     margin-left: 1px;
-    background-image: url(./img/1366_2000.jpg);
-    background-size: cover;
+
     position: inherit;
     margin-top: -88px;
-}
+}*/
 
-.hero-image__texto {
+/*.hero-image__texto {
     position: relative;
     top: 355px;
     left: 25px;
@@ -79,11 +83,11 @@ h2{
 .hero-image__buttom {
     background-color: #1c69d4;
     /* color: #fff; */
-    max-width: 280px;
+  /*  max-width: 280px;
     width: 100%;
     text-align: center;
     padding: 2px;
-}
+}*/
 
 .list-vehicule {
     width: 80%;
